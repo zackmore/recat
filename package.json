@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/browserify ./index.js > ./bundle.js",
+    "start": "./node_modules/.bin/parcel ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^16.2.2",
     "prettyjson": "^1.2.1"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.8.1"
   }
 }
